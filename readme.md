@@ -16,6 +16,8 @@ This project, much like ReactDOM, helps you handle the DOM inside your javascrip
 
 On Javascript
 ```JS
+import d from './dom';
+
 const dom = d('div', 'form-group', [
     d('label', { 'for':'email' }, 'E-mail:'),
     d('input', { 'type': 'email', 'id': 'email', 'class': 'form-control' }) 
@@ -34,6 +36,8 @@ Output
 
 On Javascript
 ```JS
+import d from './dom';
+
 const links = [
     { name:'Home', link: 'home.html' },
     { name:'About', link: 'about.html' },
