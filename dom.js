@@ -6,7 +6,7 @@
  * @return {HTMLElement}
  */
 export default function(tagName, attributes, children) {
-
+    
     if (typeof tagName !== 'string') {
         throw 'TagName has unexpected type. It expects string.';
     }
@@ -44,7 +44,6 @@ export default function(tagName, attributes, children) {
         } else {
             throw 'Attributes has unexpected type. It expects string or object.';
         }
-
     }
 
     if (children) {
@@ -67,9 +66,7 @@ export default function(tagName, attributes, children) {
             }
 
             el.appendChild(child);
-
         });
-
     }
 
     return el;
