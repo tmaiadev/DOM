@@ -1,6 +1,6 @@
 # DOM
 
-This project, much like ReactDOM, helps you handle the DOM inside your javascript code.
+This function helps you handle the DOM inside your vanilla javascript code.
 
 ## Parameters
 
@@ -10,7 +10,7 @@ This project, much like ReactDOM, helps you handle the DOM inside your javascrip
 |attributes|object/string|yes|If you pass an object, its properties will become the elements attributes. If you pass a string, it will become the elements CSS class.|
 |children|mixed|yes|It can be a string, a number or HTMLElement, or an array of these types. It will be appended to the element.|
 
-## Sample
+## Samples
 
 ### 1. Input form
 
