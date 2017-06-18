@@ -6,7 +6,7 @@
  * @return {HTMLElement}
  */
 export default function(tagName, attributes, children) {
-    
+
     if (typeof tagName !== 'string') {
         throw 'TagName has unexpected type. It expects string.';
     }
@@ -18,7 +18,7 @@ export default function(tagName, attributes, children) {
         // If attributes is string, 
         // then attributes is class
         if (typeof attributes === 'string') {
-            el.className = attributes;
+            el.setAttribute('class', attributes);
         
         // If attributes is object, we
         // get each property and set as attributes
