@@ -2,6 +2,12 @@
 
 This function helps you handle the DOM inside your vanilla javascript code.
 
+## Installing via NPM
+
+```
+npm install --save-dev thalleshmm/DOM
+```
+
 ## Parameters
 
 |Parameter|Type|Optional|Description|
@@ -16,7 +22,7 @@ This function helps you handle the DOM inside your vanilla javascript code.
 
 On Javascript
 ```JS
-import d from './dom';
+import d from 'dom';
 
 const dom = d('div', 'form-group', [
     d('label', { 'for':'email' }, 'E-mail:'),
@@ -36,7 +42,7 @@ Output
 
 On Javascript
 ```JS
-import d from './dom';
+import d from 'dom';
 
 const links = [
     { name:'Home', link: 'home.html' },
