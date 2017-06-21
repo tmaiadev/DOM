@@ -1,6 +1,6 @@
 import 'babel-polyfill';
 import assert from 'assert';
-import d from '../dom';
+import d from '../src/main';
 
 /**
  * Mock browser APIs

@@ -1,11 +1,10 @@
 {
   "name": "dom",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "It helps you handle the DOM inside your vanilla javascript code.",
   "main": "lib/main.js",
   "scripts": {
-    "test": "mocha --compilers js:babel-core/register",
-    "prepublish": "babel src --out-dir lib"
+    "test": "mocha --compilers js:babel-core/register"
   },
   "repository": {
     "type": "git",
