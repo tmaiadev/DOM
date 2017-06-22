@@ -4,7 +4,8 @@
   "description": "It helps you handle the DOM inside your vanilla javascript code.",
   "main": "lib/main.js",
   "scripts": {
-    "prepublish": "babel src --out-dir lib",
+    "build": "babel src --out-dir lib",
+    "prepublish": "npm run build",
     "test": "mocha --compilers js:babel-core/register"
   },
   "repository": {
