@@ -22,7 +22,7 @@ npm install --save-dev thalleshmm/DOM
 
 On Javascript
 ```JS
-import d from 'dom';
+import d from 'thalleshmm-dom';
 
 const dom = d('div', 'form-group', [
     d('label', { 'for':'email' }, 'E-mail:'),
@@ -42,7 +42,7 @@ Output
 
 On Javascript
 ```JS
-import d from 'dom';
+import d from 'thalleshmm-dom';
 
 const links = [
     { name:'Home', link: 'home.html' },

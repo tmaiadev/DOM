@@ -1,6 +1,6 @@
 {
-  "name": "dom",
-  "version": "1.1.1",
+  "name": "thalleshmm-dom",
+  "version": "1.1.2",
   "description": "It helps you handle the DOM inside your vanilla javascript code.",
   "main": "lib/main.js",
   "scripts": {
